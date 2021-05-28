@@ -2,7 +2,7 @@
 CyberProject:
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/cyberproject1.png)
+![TODO: Update the path with the name of your diagram](Diagrams/cyberproject1.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -168,7 +168,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 `ansible-playbook filebeat-playbook.yml`
 ```
-Sample Username: RedTeam
+
 ---
 - name: installing and launching filebeat
   hosts: webservers
